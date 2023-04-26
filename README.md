@@ -1,6 +1,6 @@
-##JS Fundamentals##
+## JS Fundamentals
 
-###Topics covered:###
+### Topics covered:###
 
 - Getting elements from the DOM
 ```
