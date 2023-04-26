@@ -2,11 +2,11 @@
 
 ### Topics covered:
 
-- Getting elements from the DOM
+Getting elements from the DOM:
 ```
 document.getElementById("id-goes-here");
 ```
-- Backticks
+Backticks:
 ```
 `
 <p>Elements go here</p>
