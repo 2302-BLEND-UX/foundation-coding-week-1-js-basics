@@ -55,12 +55,27 @@ var hungry = false;
 
 // --functions
 
-var firstName = prompt("What's your name?")
+// var firstName = prompt("What's your name?")
 
-function helloUser() {
-    alert(`Hello, ${firstName}`);
+// function helloUser() {
+//     alert(`Hello, ${firstName}`);
+// }
+// helloUser();
+
+// -----CLOUD
+var multiplyResult = document.getElementById("multiply-result");
+var runButton = document.getElementById("run");
+
+runButton.addEventListener("click", multiply);
+
+function multiply() {
+    var num1 = prompt("first number");
+    var num2 = prompt("second number");
+    var num3 = prompt("third number");
+    var result = num1 * num2 * num3;
+    multiplyResult.innerHTML = result;
 }
-helloUser();
+
 
 
 
